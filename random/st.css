@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    padding-top: 30px;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    /* margin-left: 30px; */
+    width: 70vw;
+    padding-top: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+.cur .temp{
+    background-color: antiquewhite;
+
+    border-radius: 10px;
+    width: 35vw;
+
+}
+.temp .top1{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.temp .top2{
+    display: flex;
+    height: 160px;
+    justify-content: space-evenly;
+}
+.top2 .degrees{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+.degrees h1{
+     /* height: 20px; */
+    padding-top: 26px;
+    font-size: 40px;
+}
+.degrees p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.top3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.top3 li{
+    /* width: 90px; */
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400
+}
+.cur .details{
+    width: 29vw;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    color: black;
+    padding-top: 20px;
+}
+.dleft,.dright{
+    padding-left: 10px;
+    width:14vw;
+}
+.dleft li,.dright li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.right{
+    /* margin-left:  30px; */
+    background-color: rgb(54, 52, 52);
+    width: 30vw;
+}
+.cur,.hourly,.tmrw{
+    margin-bottom: 10px;
+    display: flex;
+    width: 65vw;
+    height: 30px;
+}
+.cur{
+    height: 250px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.hourly{
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 230px;
+}
+.hourly .hourlytelecast{
+padding: 10px 10px;
+font-size: 25px;
+font-weight: 600;
+}
+.hourly .hourcards{
+    padding: 10px 10px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.hourcards .card1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.hourcards .card1 .desc{
+    font-size: 20px;
+    font-weight: 200;
+}
+.hourcards .card1 img{
+    padding: 4px 7px;
+    text-align: center;
+}
+.hourcards .card1 .deg{
+font-size: 30px;
+font-weight: 400;
+}
+.hourcards .card1 .time{
+    font-size: 23px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.tmrw{
+    height: 210px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.tmrw .ttelecast{
+    padding: 10px 5px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.tmrw .tbody{
+    display: flex;
+}
+.tmrw .tbody .tleft{
+    display: flex;
+    justify-content: space-between;
+    width:40vw;
+}
+.tmrw .tbody .tleft .telecast{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+.tmrw .tbody .tleft .stelecast{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 21px;
+}
+.tmrw .tbody .tleft .stelecast li{
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.tmrw .tbody .tleft .telecast li{
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.tmrw .tbody .tleft .telecast h3{
+    font-size: 21px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.tmrw .tbody .tleft .telecast h5{
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+/* .tmrw .tbody .tleft .telecast{
+
+} */
+.tmrw .tbody .tright{
+    display: flex;
+    width:25vw;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.tmrw .tbody .tright a{
+    font-style: none;
+    font-size: 30px;
+    color: black;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    padding: 26px 10px;
+}
+.right .calender{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 7px;
+    list-style: none;
+}
+.right .calender .day{
+    text-align: center;
+    padding: 3px 0px 0px 2px;
+}
+.right .calender .daydetails{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right .calender .daydetails li{
+    /* width: 50px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.right .calender .daydetails li img{
+    padding-right: 5px;
+}

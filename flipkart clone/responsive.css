@@ -1,0 +1,27 @@
+@media screen and (max-height:1000px){
+
+    .logo{
+        display: inline;
+    }
+
+
+}
+/* @media screen and (max-height:600px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .btns{
+        padding-top: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        padding: 3vh 35vw;
+    }
+} */

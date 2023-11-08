@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 50vw;
+    height: 50vh;
+    background-image: url("dd.jpg");
+    background-position: center;
+}
